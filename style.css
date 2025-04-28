@@ -1,0 +1,262 @@
+
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* HEADER */
+
+#logoid{
+    background-color: aliceblue;
+    border-radius: 50%;
+}
+
+h1{
+    font-size: xx-large;
+    color: indigo;
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+header{
+    background-color: aquamarine;
+    height: 100px;
+    background-image: url(zima.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header_section1_logo{
+    justify-content: center;
+    width: 30%;
+    height: 100px;
+}
+
+.header_section2_title{
+    justify-content: center;
+    width: 40%;
+    height: 100px;
+    align-items: center;
+}
+
+.header_section3_registration{
+    justify-content: center;
+    width: 30%;
+    height: 100px;
+}
+
+.logged{
+    background-color: aliceblue;
+    display: flex;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.user_image{
+    margin: 2px;
+}
+
+#user_photo{
+    height: 50px;
+    border-radius: 50%;
+}
+
+.username{
+    min-width: 80px;
+    margin: 3px;
+}
+
+section{
+    display: flex;
+}
+
+.logo{
+    height: 100px;
+}
+
+/* END - HEADER  */
+
+
+nav{
+    background-color: aquamarine;  
+    width: 20%;
+    padding: 10px;
+}
+
+
+
+main{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: beige;
+}
+
+.znajdz_nas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: azure;
+    margin: 20px;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.inviting_text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 70%;
+    background-color: azure;
+    margin: 20px;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.logging_form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 70%;
+    background-color: azure;
+    margin: 20px;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+#loginform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+footer{
+    background-color: aquamarine;
+    
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    padding: 10px;
+    background-color: aqua;
+}
+
+.th_date{
+    width: 100px;
+}
+
+.error{
+    background-color: rgba(255, 0, 0, 0.87);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.success{
+    background-color: rgba(43, 255, 0, 0.87);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+ul{
+    background-color: azure;
+    border-radius: 30px;
+    padding: 40px;
+    padding-left: 60px;
+}
+
+.counter{
+    background-color: azure;
+    border-radius: 30px;
+    padding: 40px;
+    padding-left: 60px;
+}
+
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+tr, td, th{
+    border: 1px solid black;
+    padding: 5px;
+    margin: 0px;
+    
+}
+
+#orderform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   
+    
+    
+}
+
+.password{
+    color: azure;
+    padding: 5px;
+    margin: 3px;
+    border: 1px black solid;
+    border-radius: 3px;
+}
+
+.password:hover{
+    color: black;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.delete_th{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.gallery_item{
+background-color: aqua;
+margin: 20px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+border-radius: 20px;
+padding: 20px;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 70%;
+    background-color: azure;
+    margin: 20px;
+    border-radius: 30px;
+    padding: 20px;
+}
